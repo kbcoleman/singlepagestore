@@ -1,0 +1,170 @@
+h1 {
+    display: flex;
+    font-size: 2em;
+    color: rgb(155, 42, 165);
+    text-decoration: solid;
+    
+}
+
+h2 {
+   margin: 5;
+   padding: 0 0 0 40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: 10px;
+}
+
+
+h3 {
+    
+    font-size: 1em;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    padding: 0 0 0 100;
+}
+
+.name {
+    margin: 0px;
+    padding: 0 0 0 200;
+}
+
+nav {
+    
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: pink;
+        padding: 20px;
+    
+}
+nav a:visited
+nav a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > ul {
+    display: inline;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0px 0 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+main {
+    display: block;
+    background-color: bisque;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+
+
+}
+
+
+.banner {
+    max-width: 100%;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0px 0px 15px;
+    background-color: pink;
+    text-align: center;
+    float: center;
+    color: rgb(176, 216, 216);
+}
+
+.footer-list {
+    padding: 20px 0px 0px 200px;
+    margin-right: 10;
+    text-align: right;
+    font-size: smaller;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: 150px auto 10px;
+  grid-auto-rows: 90px;
+  grid-gap: 20px;
+  background-color: pink;
+  padding: 5px;
+  
+}
+
+.grid-item {
+  background-color: pink;
+  border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+    margin: 5;
+  
+}
+
+.grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item-2 {
+    
+}
+
+.grid-item-3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 15;
+    padding: 0;
+
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials {
+    height: 20px;
+   
+}
+
+img {
+    width: auto;
+    max-height: 100%;
+    padding: 3px;
+}
+/*===== Section Headers ====*/
+.section-header {
+    margin-bottom: 20px;
+}
+
+.section-header--title {
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width:480px) {
+
+
+}

@@ -70,6 +70,10 @@ main {
 
 }
 
+#page-wrap {
+    width: 900px;
+    margin: 0 auto;
+}
 
 .banner {
     max-width: 100%;
@@ -96,6 +100,64 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*===== Main Grids ====*/
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: auto, auto, auto;
+}
+
+.grid-product-1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    gap: 10px;
+}
+
+.grid-product-3 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.grid-product-4 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.grid-product-5 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.grid-product-6 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+.inner-item {
+    display: grid;
+    grid-column-start: 1;
+}
+.inner-item-2 {
+    display: grid;
+    grid-column-start: 2;
+}
+
+.inner-item-3 {
+    display: grid;
+    grid-column-start: 3;
+}
+
+/*===== Footer Grids ====*/
 
 .grid-container {
   display: grid;

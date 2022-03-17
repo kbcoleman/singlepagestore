@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="smallstyle.css" type="text/css" />
+    <link rel="stylesheet" href="medium.css" type="text/css" />
+    <link rel="stylesheet" href="large.css" type="text/css" />
     <title>Generic Store</title>
 
 
@@ -18,14 +21,18 @@
     <h2>Even more generic store tagline!</h2>
 
 
-    <nav>
-        <ul>
-            <li><a href="/">Sale</a></li>
+    <nav class="clearfix">
+        <div class="row limited">
+            <button id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+            <li class="active"><a href="/">Sale</a></li>
             <li><a href="/">Made to Order</a></li>
             <li><a href="/">Decor</a></li>
             <li><a href="/">Club</a></li>
             <li><a href="/">Contact Us</a></li>
         </ul>
+
+    </div> <!--end row-->
     </nav>   
     
     
@@ -63,19 +70,29 @@
         </div>
 
         <div class="grid-item grid-product-3">
-            This is the section  of items
-            <div class="grid-item inner-item">
-                <p>What is Lorem Ipsum?
-                This is text in the inner item 1                    </p>
-            </div>
-            <div class="grid-item inner-item-2">
-                <p>What is Lorem Ipsum?
-                This is text in the inner item 2                    </p>
-            </div>
-            <div class="grid-item inner-item-3">
-                <p>What is Lorem Ipsum?
-                This is text in the inner item 3                    </p>
-            </div>
+            <div class="row"> 
+                <section class="column small-12 medium-6 large-3">
+                   
+                    <a href="/"><img src="twitter.png" alt="twitter"> </a>
+                    <h2>Location</h2>
+        
+                </section>
+                <section class="column small-12 medium-6 large-3">
+                    
+                    <a href="/"><img src="twitter.png" alt="twitter"> </a>
+                    <h2>Company</h2>
+        
+                </section>
+                <section class="column small-12 medium-6 large-3">
+                    <a href="/"><img src="twitter.png" alt="twitter"> </a>
+                    <h2>Social</h2>
+        
+                </section>
+                <section class="column small-12 medium-6 large-3">
+                    <a href="/"><img src="twitter.png" alt="twitter"> </a>
+                    <h2>About Us</h2>
+        
+                </section>
  </div>
         <div class="grid-item grid-product-4">
             This is the third section of items   <div class="grid-item inner-item">
@@ -94,14 +111,12 @@
         <div class="grid-item grid-product-5">
             This is that first block at the bottom uwu
         </div>
-        <div class="grid-item grid-product-6">
-            And this is the second block 
-        </div>
+        
     </div>
  
 </div>
 
-<footer>
+<footer class="limited">
     <div class="footer-group">
 
        	
@@ -149,5 +164,6 @@
 
 </footer>
 </div>
+  <script src="js/menuToggle.js"></script>
 </body>
 </html>

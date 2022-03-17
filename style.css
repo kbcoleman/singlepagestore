@@ -36,29 +36,57 @@ nav {
         top: 0;
         left: 0;
         width: 100%;
-        background-color: pink;
+        background-color: #23cfa7;
         padding: 20px;
     
 }
+
+nav a {
+    display: block;
+    padding: .08rem 0;
+    color: #eee;
+    text-align: center;
+}
+
 nav a:visited
 nav a:link {
     color: #fff;
     text-decoration: none;
 }
 
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav li.active {
+    background-color: rgba( 0,0,0,0.5);
+}
+
+
 nav > ul {
-    display: inline;
     padding: 0;
+    margin: 0;
+    display: none;
 }
 
 nav > ul > li {
     display: inline-block;
     list-style: none;
-    margin: 0 0px 0 200px;
     text-align: center;
+    margin: 0 0px 0 200px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
+
+nav ul.open {
+    display: block;
+}
+
+nav ul {
+    display: none;
+}
+
+
 
 main {
     display: block;
@@ -85,7 +113,6 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 0px 0px 15px;
-    background-color: pink;
     text-align: center;
     float: center;
     color: rgb(176, 216, 216);
@@ -141,7 +168,7 @@ footer {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 7;
-    grid-row-end: 9;
+    grid-row-end: 89;
 }
 .inner-item {
     display: grid;
@@ -165,13 +192,11 @@ footer {
   grid-template-rows: 150px auto 10px;
   grid-auto-rows: 90px;
   grid-gap: 20px;
-  background-color: pink;
   padding: 5px;
   
 }
 
 .grid-item {
-  background-color: pink;
   border: 1px solid rgb(0, 0, 0);
     padding: 0;
     margin: 5;

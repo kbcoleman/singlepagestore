@@ -25,19 +25,30 @@ h3 {
 }
 
 .name {
+    height: 190px;
     margin: 0px;
-    padding: 0 0 0 200;
+    background-color: #CCADB2;
+    padding-top: 90px;
+    
+}
+
+.slideshow {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: none;
 }
 
 nav {
     
         display: block;
-        position: relative;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #23cfa7;
-        padding: 20px;
+        background-color: #57838D;
+        padding: 10px;
     
 }
 
@@ -58,9 +69,7 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-nav li.active {
-    background-color: rgba( 0,0,0,0.5);
-}
+
 
 
 nav > ul {
@@ -90,7 +99,6 @@ nav ul {
 
 main {
     display: block;
-    background-color: bisque;
     padding-top: 3em;
     padding-bottom: 3em;
     min-height: 85%;
@@ -251,7 +259,3 @@ img {
     margin-bottom: 12px;
 }
 
-@media screen and (max-width:480px) {
-
-
-}

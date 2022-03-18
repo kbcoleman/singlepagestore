@@ -8,6 +8,7 @@ Requirements:
     Media Queries
         - min-width 768px and min-width 1200px
         - currently on different CSS sheets 
+        - Search Box not on small screens
 
     CSS Features
         -
@@ -25,5 +26,6 @@ Requirements:
     Eventual Features
         -Clicking a section in the header will scroll to that location
         -JavaScript Slide Show
+        -Search will be functional
     
 

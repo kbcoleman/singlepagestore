@@ -1,9 +1,22 @@
 @media only screen and (min-width: 1200px) {
  
-    .large-3 {
+.large-3 {
         width: 25%;}
 
-/* ham btn */
+        
+        
+nav {
+    
+            display: block;
+            position: top;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #57838D;
+            padding: 5px;        
+    }       
+        
+        /* ham btn */
 nav ul {
     margin-left: 2vw;}
 
@@ -14,9 +27,20 @@ nav a{
     padding: .7rem 1rem;
 }
 
+/* search */
+.search {
+    float: right;
+    padding: 10;
+    margin: 2rem;
+}
 
-
-
+/* slideshow image */
+.slideshow {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
 } /*end of query*/

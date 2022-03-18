@@ -9,19 +9,17 @@
     <link rel="stylesheet" href="medium.css" type="text/css" />
     <link rel="stylesheet" href="large.css" type="text/css" />
     <title>Generic Store</title>
-
+   
+    
 
 </head>
+
 <body>
 
  <header>
- <div class="name">
-    <h1>Generic Store Name</h1>
-</div>
-    <h2>Even more generic store tagline!</h2>
-
-
+ 
     <nav class="clearfix">
+
         <div class="row limited">
             <button id="hamburgerBtn">&#9776;</button>
         <ul id="primaryNav">
@@ -29,18 +27,24 @@
             <li><a href="/">Made to Order</a></li>
             <li><a href="/">Decor</a></li>
             <li><a href="/">Club</a></li>
-            <li><a href="/">Contact Us</a></li>
         </ul>
 
-    </div> <!--end row-->
+<!--Search-->
+<input class="search" type="text" placeholder="Search..." autofocus />
+   
+</div> <!--end row-->
     </nav>   
-    
-    
+    <div class="name">
+        <a href="/"><img src="logo.svg" alt="logo">  
+        
+    </div>
+    <a href="/"><img class="slideshow" src="slideshow.svg" alt="slideshow"> 
     
  </header>
  
+ <!--Page Wrap-->
  <div id="page-wrap">
-
+   
 
 <div class="section-header--left"><h3>Shop Signs</h3></div>
 <div class="section-header--right">
@@ -164,6 +168,6 @@
 
 </footer>
 </div>
-  <script src="js/menuToggle.js"></script>
+  <script src="toggleMenu.js"></script>
 </body>
 </html>

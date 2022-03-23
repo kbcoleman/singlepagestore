@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <script src="conus.js"></script>
+
+    <style>
+       #output1 {
+  width: 320px;
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 0;
+}
+label, input, textarea {
+    display: block;
+}
+    </style>
+</head>
+
+
+<body>
+
+<div id="error"></div>
+
+    <form id="form">
+        <h2>Contact Us</h2>
+
+        <label for="tbuser">Name:</label>
+        <input type="text" id="tbuser" placeholder="enter name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="enter email">
+
+        <label for="message">Order Information</label>
+        <textarea></textarea>
+
+        <p class="output" id="output1"></p>
+        Thank you for submitting!       
+        <input type="button" id="btn1" value="submit">
+
+    </form>
+   
+
+</body>
+</html>
+

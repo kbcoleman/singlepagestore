@@ -1,5 +1,7 @@
 @media only screen and (min-width: 1200px) {
  
+    
+
 .large-3 {
         width: 25%;}
 
@@ -40,6 +42,43 @@ nav a{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* Animation */
+.parent {
+    background-color: 57838D;
+    height: 100px;
+    width: 100px;
+
+}
+
+.child {
+    background-color: 57838D;
+    height: 50%;
+    width: 50%;
+    
+}
+
+.parent:hover .child {
+     animation: left-to-right 1s ease-in forwards infinite alternate;
+}
+
+@keyframes left-to-right {
+   
+   0% {
+       transform: translateX(0);
+   }
+
+   33% {
+       transform: translateY(100%);
+   }
+
+   66% {
+    transform: translateX(100%) translateY(100%) ;
+   }
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 

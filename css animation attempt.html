@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animation attempt</title>
+
+<style>
+    .parent {
+        background-color: black;
+        height: 400px;
+        width: 800px;
+
+    }
+
+    .child {
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+        
+    }
+
+    .parent:hover .child {
+         animation: left-to-right 1s ease-in forwards infinite alternate;
+    }
+
+    @keyframes left-to-right {
+       
+       0% {
+           transform: translateX(0);
+       }
+
+       33% {
+           transform: translateY(100%);
+       }
+
+       66% {
+           transform: translateX(100%) translateY(100%);
+       }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+</style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+</body>
+</html>

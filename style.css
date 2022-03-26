@@ -205,7 +205,7 @@ footer {
 }
 
 .grid-item {
-  border: 1px solid rgb(0, 0, 0);
+  border: 0px solid rgb(0, 0, 0);
     padding: 0;
     margin: 5;
   
@@ -242,6 +242,10 @@ a:hover {
     height: 20px;
     align-content: center;
    
+}
+
+#bird {
+    width: 10rem;
 }
 
 img {

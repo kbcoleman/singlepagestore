@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="smallstyle.css" type="text/css" />
+    <link rel="stylesheet" href="medium.css" type="text/css" />
+    <link rel="stylesheet" href="large.css" type="text/css" />
+    <title>Wood Store</title>
+    <script defer src="conus.js"></script>
+
+    <style>
+       #output1 {
+  width: 320px;
+  padding: 10px;
+  border: 0px solid gray;
+  margin: 0;
+}
+label, input, textarea {
+    display: block;
+}
+
+/* animation */
+.parent {
+        background-color: 57838D;
+        height: 300px;
+        width: 300px;
+        
+    }
+
+    .child {
+        background-color: 57838D;
+        height: 50%;
+        width: 50%;
+        
+    }
+
+    .parent:hover .child {
+         animation: left-to-right 3s forwards infinite alternate;
+    }
+
+    @keyframes left-to-right {
+       
+       0% {
+           transform: translateX(0);
+       }
+
+       25% {
+           transform: translateY(50%);
+       }
+
+       75% {
+           transform: translateX(100%) translateY(100%);
+       }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+    </style>
+    
+
+</head>
+
+<body>
+
+ <header>
+ 
+    <nav class="clearfix">
+
+        <div class="row limited">
+            <button id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+            <li class="active"><a href="#sale">Sale</a></li>
+            <li><a href="#new">New</a></li>
+            <li><a href="#mto">Homemade</a></li>
+            <li><a href="/test.html">Contact Us</a></li>
+        </ul>
+
+<!--Search-->
+<input class="search" type="text" placeholder="Search..." autofocus />
+   
+</div> <!--end row-->
+    </nav>   
+    <div class="name">
+        <a href="/"><img src="logo.svg" alt="logo">  
+           
+    </div>
+
+   </a> 
+   
+ </header>
+ 
+ <!--Page Wrap-->
+ <div id="page-wrap">
+   
+    <form id="form">
+        <h2>Contact Us</h2>
+
+        <label for="tbuser">Name:</label>
+        <input type="text" id="tbuser" placeholder="enter name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="enter email">
+
+        <label for="message">Order Information</label>
+        <textarea></textarea>
+
+        <p class="output" id="output1"></p>
+        Thank you for submitting!       
+        <input type="button" id="btn1" value="submit">
+
+    </form>
+   
+<br>
+    <!--Animation-->
+    <div class="parent">
+        <div class="child"><img src="twitter.png"></div>
+    </div>
+
+
+
+<footer class="limited">
+    
+    <div class="footer-group">
+
+       	
+        <div class="grid-container footer1">
+                        <div class="grid-item grid-item-1">
+
+                            <div class="footer-list">
+      
+                                <h3>Quick links</h3>    
+                                <ul>
+                                  
+                                    <li><a href="/">FAQ</a></li>
+                    
+                                    <li><a href="/">Return Policy</a></li>
+                                  
+                                    <li><a href="/">Club Link</a></li>
+                                  
+                                    <li><a href="/">Contact Us</a></li>
+                                  
+                                </ul>
+                                   
+                              </div>
+                        </div>
+                        
+                        <div class="grid-item grid-item-3">
+
+                            <div class="socials">
+            
+                                <a href="/"><img src="twitter.png" alt="twitter"> </a>
+                                <a href="/"><img src="insta.png" alt="instagram"></a> 
+                                <a href="/"><img src="facebook.png" alt="facebook"></a>
+                                <a href="/"><img src="pintrest.png" alt="pintrest"></a>
+                                   
+                              </div>	
+
+                       
+
+                    </div>
+
+
+         </div>
+
+    </div>  					
+    
+</footer>
+</div>
+  <script src="toggleMenu.js"></script>
+</body>
+</html>

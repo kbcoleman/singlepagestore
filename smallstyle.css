@@ -22,7 +22,10 @@ button#hamburgerBtn {
     display: none;
 }
 
-
+/* scroll */
+html {
+    scroll-behavior: smooth;
+  }
 
 /* grid rules */
 
@@ -48,6 +51,7 @@ body {
     font-weight: 300;
     font-size: 1.2rem;
     background-color: #B4C9C7;
+    
 
 }
 
@@ -55,6 +59,16 @@ body h2 {
     font-style: Italic;
     margin: 1rem 0 .3rem 0;
 }
+
+.textbox {
+    width: 120px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 0;
+    font-size: small;
+    
+  }
+
 
 .clearfix:after {
     content: "";
@@ -64,6 +78,7 @@ body h2 {
 
 footer{
     background-color: #CCADB2;
+    box-shadow: 0 50vh 0 50vh #CCADB2;
     
 }
 

@@ -28,7 +28,7 @@ Requirements:
 
     JavaScript Feature
         - Contact Form, clicking submit displays the 
-        name entered. If there is no information entered, clicking into the box will prompt the user to enter information. 
+        name entered. If there is no information entered, clicking the submit button will prompt the user to enter information. 
 
     Extra Requirement
         - CSS Keyframe animation displayed on contact form

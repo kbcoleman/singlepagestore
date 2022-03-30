@@ -94,11 +94,11 @@ label, input, textarea {
  <!--Page Wrap-->
  <div id="page-wrap">
    
-    <form id="form">
-        <h2>Want Your Own Bird?</h2>
-        <br>
+    <form id="form"  method="GET" onsubmit="checkforblank(event)">
+        <h2>Get Your Own Bird!</h2>
+            <br>
         <label for="tbuser">Name:</label>
-        <input type="text" id="tbuser" placeholder="enter name">
+        <input required="required" type="text" id="tbuser" placeholder="enter name">
 
         <label for="email">Email:</label>
         <input type="email" id="email" placeholder="enter email">
@@ -106,10 +106,9 @@ label, input, textarea {
         <label for="message">Order Information</label>
         <textarea></textarea>
 
-        <p class="output" id="output1"> Hey!</p>
-        We thank you for your interest! 
-              
-        <input type="button" id="btn1" value="submit">
+        <p class="output" id="output1">Hey there!</p>
+        Thank you for your interest!       
+        <input type="submit" id="btn1" value="submit">
 
     </form>
    

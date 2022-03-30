@@ -1,6 +1,6 @@
 Thank you for looking at my storefront.
 
-This is a single-page store front for a wood carving store. 
+This is a store front for a wood carving store. To start please select the "Mainpage.html"
 
 Important Infomation:
 

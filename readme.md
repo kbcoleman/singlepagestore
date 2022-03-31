@@ -13,8 +13,8 @@ Important Infomation:
     Social Media
         - This is a fake buisness. All social media links are for display purposes only and link to the homepage of that specific social media site
     
-    Browser
-        - This site is best viewed in firefox 
+    Viewing Project
+        - This project is viewable by using VS Code's live server.
         
 Requirements: 
 
